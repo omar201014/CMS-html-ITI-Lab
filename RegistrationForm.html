@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ITI | Registration Form</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-items">
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html"><span>Home</span></a>
+                    </li>
+                    <li>
+                        <a href="roadMap.html"><span>Road Map</span></a>
+                    </li>
+                    <li>
+                        <a href="RegistrationForm.html"><span>Registration form</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.iti.gov.eg"><span>contact</span></a>
+                    </li>
+                </ul>
+            </div>
+            <img src="images/ITI_logo.png" width="200px" />
+        </nav>
+    </header>
+    <main class="form-content">
+        <form>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td colspan="2">
+                            <h2 class="form-heading">Register - Create Account</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p class="table-title">Field marked with <span style="color: red;">*</span> are compulsory fields</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left"><span style="color: red;">*</span>Your Name:</td>
+                        <td><input type="text" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td class="table-left"><span style="color: red;">*</span>Your Email:</td>
+                        <td><input type="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">Your Phone:</td>
+                        <td class="phone-inputs">
+                            <div>
+                                <p><small>Country Code</small></p>
+                                <input type="text" name="country-code">
+                                -
+                            </div>
+                            <div>
+                                <p><small>City Code</small></p>
+                                <input type="text" name="country-code">
+                                -
+                            </div>
+                            <div>
+                                <p><small>Phone Number</small></p>
+                                <input type="text" name="country-code">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">Mobile Phone:</td>
+                        <td><input type="number" name="mobile" required></td>
+                    </tr>
+                    <tr>
+                        <td class="table-left"><span style="color: red;">*</span>Your Postal Address:</td>
+                        <td><textarea name="postal-address" cols="40" rows="3"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="table-left"><span style="color: red;">*</span>Country:</td>
+                        <td><select name="country" required>
+                            <option disabled selected>Select Your Country</option>
+                            <option value="Egypt">Egypt</option>
+                            <option value="England">England</option>
+                            <option value="Germany">Germany</option>
+                            <option value="United States">USA</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td class="table-left"><span style="color: red;">*</span>Your Password:</td>
+                        <td><input type="password" name="password" required></td>
+                    </tr>
+                    <tr>
+                        <td class="table-left"><span style="color: red;">*</span>Re-Enter Password:</td>
+                        <td><input type="password" name="password" required></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" name="terms-check" required>
+                            <span>I accept the <a href="#">Terms of Use</a></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button>Continue</button>
+                            &nbsp;
+                            <button>Reset</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </main>
+    <hr>
+    <footer style="padding: 12px 0; text-align: center;">
+        Copyright 2023 by Omar Hussein &copy;. All Rights Reserverd
+    </footer>
+
+</body>
+</html>

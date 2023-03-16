@@ -1,0 +1,90 @@
+/* Global Styles */
+
+:root{
+    --light-bg:#f5faf9;
+    --dark-bg:#e0f0e8;
+    --form-font:#72a491;
+}
+
+
+/*content styles*/
+.nav-bar {
+	display: flex;
+	justify-content: space-between;
+	background-color: #8d8d8d;
+	max-height: 80px;
+	box-sizing: border-box;
+}
+.nav-list {
+	display: flex;
+	height: 100%;
+	align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items ul li{
+    height: 100%;
+}
+
+.nav-items ul li a {
+	font-size: 20px;
+	color: white;
+	height: 100%;
+	display: flex;
+	padding-inline: 28px;
+	justify-content: center;
+	align-items: center;
+    text-decoration: none;
+}
+.nav-items ul li a:hover {
+	background-color: red;
+}
+
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.main-items{
+    flex-basis: 50%;
+}
+
+.form-content{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-content table{
+    border: 3px solid var(--dark-bg);
+    background-color: var(--light-bg);
+    border-spacing: 5px;
+}
+
+.form-heading{
+    color: var(--form-font);
+}
+
+.table-title{
+    border: 2px dashed var(--form-font);
+    background-color: var(--dark-bg);
+    margin-bottom: 18px;
+}
+
+.table-left{
+    text-align: right;
+    background-color: var(--dark-bg);
+}
+
+.phone-inputs{
+    display: flex;
+    gap: 5px;
+}
+
+.phone-inputs p{
+    font-size: 12px;
+    font-weight: 300;
+}
